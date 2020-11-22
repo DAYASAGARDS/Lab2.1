@@ -1,6 +1,6 @@
 # Lab2.1
 
-ls
+    1 ls
     2  cd ..
     3  ls
     4  cd 
