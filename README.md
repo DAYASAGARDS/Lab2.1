@@ -66,3 +66,39 @@
 
 
     Lesson 2 Jenkins
+    
+    
+    
+    Lession 3 Teamcity
+       11  cd Desktop/
+   12  ls
+   13  history
+   14  ls
+   15  mkdir lab3.2teamcity
+   16  cd lab3.2teamcity/
+   17  cd /home/ubuntu/Downloads/
+   18  cd /
+   19  ls
+   20  cd home
+   21  ls
+   22  cd dayasagarsalian/
+   23  ls
+   24  cd D
+   25  cd Downloads/
+   26  ls
+   27  tar zxvf TeamCity-2020.1.5.tar.gz
+   28  sudo mkdir /opt/JetBrains
+   29  sudo mv TeamCity /opt/JetBrains/Teamcity
+   30  cd /opt/JetBrains/
+   31  chmod -R 777 Teamcity/
+   32  ls
+   33  cd Teamcity/
+   34  ls
+   35  cd b
+   36  cd bin/
+   37  cls
+   38  clear
+   39  ./teamcity-server.sh start
+   40  if config
+   41  history
+
