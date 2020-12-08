@@ -742,5 +742,136 @@
       633  cd Desktop/
       634  sudo -i
       635  history
+ 
+      635  cd Desktop/
+      636  ls
+      637  cd ..
+      638  ls
+      639  cd Desktop/lab6.1
+      640  ls
+      641  cd DockerWithMySQL/
+      642  ls
+      643  docker images
+      644  docker inspect mysql:5.7 ql
+      645  docker inspect mysql
+      646  docker inspect mysql:5.7
+      647  ./runclient
+      648  docker ps -a
+      649  docker rm 0b0d9676f4c7
+      650  docker ps -a
+      651  docker login --username=dayasagards --password=Sherilyn@123
+      652  docker images
+      653  sudo docker push dayasagards/mysql:5.7
+      654  sudo docker push mysql:5.7
+      655  docker login --username=dayasagards --password=Sherilyn@123
+      656  sudo docker push mysql:5.7
+      657  sudo su
+      658  cd ..
+      659  docker ps -a
+      660  docker images
+      661  docker run -it mysql:5.7
+      662  docker run -it centos:latest
+      663  docker run -it -localhost:5000/ubuntu
+      664  docker run -it -localhost:5000/ubuntu:latest
+      665  docker run -it -localhost
+      666  docker images
+      667  docker tag ae0658fdbad5 dayasagards/demomysql:5:7
+      668  docker tag ae0658fdbad5 dayasagards/demomysql:5.7
+      669  docker images
+      670  docker push dayasagards/demomysql:5.7
+      671  CD ..
+      672  cd ..
+      673  ls
+      674  mkdir petclinic
+      675  cd petclinic/
+      676  ls
+      677  git clone https://github.com/amitvashisttech/devops301-mindtree-17Oct2020.git
+      678  ls
+      679  cd devops301-mindtree-17Oct2020/
+      680  ls
+      681  apapt-get install maven -y
+      682  apt-get install maven -y
+      683  sudo apt-get install maven -y
+      684  mvn --version
+      685  mvn clean
+      686  ls
+      687  cd 02-Jenkins/
+      688  ls
+      689  cd petclinic-code/
+      690  ls
+      691  mvn compile
+      692  mvn test
+      693  mvn package
+      694  sudo wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.zip
+      695  ls
+      696  apt-get install unzip -y
+      697  sudo apt-get install unzip -y
+      698  unzip apache-tomcat-8.5.56.zip
+      699  ls
+      700  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+      701  sudo cp -rf apache-tomcat-8.5.56 /opt/tomcat
+      702  cd ..
+      703  ls
+      704  cd ..
+      705  ls
+      706  sudo cp -rf 03-Tomcat/tomcat-users.xml   /opt/tomcat/conf/tomcat-users.xml
+      707  cat 03-Tomcat/tomcat-users.xml
+      708  sudo cp -rf 03-Tomcat/context.xml  /opt/tomcat/webapps/manager/META-INF/context.xml
+      709  sudo cd /opt/tomcat/
+      710  cd /opt/tomcat/
+      711  chmod +x bin/catalina.sh
+      712  ls
+      713  cd bin
+      714  ls
+      715  sudo chmod +x catalina.sh 
+      716  ./bin/catalina.sh start
+      717  .catalina.sh start
+      718  ./catalina.sh start
+      719  sudo ./catalina.sh start
+      720  ps -ef | grep -i tomcat
+      721  netstat -tulnp | grep -i 8080
+      722  cd /home/dayasagarsalian/Desktop/petclinic/devops301-mindtree-17Oct2020/02-Jenkins/petclinic-code
+      723  git init
+      724  cd /home/dayasagarsalian/Desktop/dayapetclinic/petclinic-code/
+      725  git init
+      726  git add .
+      727  git status
+      728  git commit . -m "First commit for my code"
+      729  git remote add origin https://github.com/DAYASAGARDS/dayapetclinic.git
+      730  git push -u origin main
+      731  git remote add origin https://github.com/DAYASAGARDS/dayapetclinic.git
+      732  git push -u origin master
+      733  git remote add origin https://github.com/DAYASAGARDS/dayapetclinic.git
+      734  git push -u origin main
+      735  git push -u origin master
+      736  ps -ef | grep -i tomcat
+      737  netstat -tulnp | grep -i 8080
+      738  netstat -tulnp
+      739  netstat -tulnp | grep -i 8080
+      740  ps -ef | grep -i tomcat
+      741  cd /opt/tomcat/
+      742  ls
+      743  cd /b
+      744  cd bin/
+      745  ls
+      746  cat catalina.sh
+      747  ifconfig
+      748  ls
+      749  cd 
+      750  ls
+      751  ccd /etc/default/
+      752  cd /etc
+      753  ~
+      754  cd ..
+      755  ~
+      756  cd /etc/default
+      757  ls
+      758  cd jenkins
+      759  cd ..
+      760  ~
+      761  sudo su
+      762  history
+      763  ps -ef | grep -i tomcat
+      764  netstat -tulnp | grep -i 8080
 
 
